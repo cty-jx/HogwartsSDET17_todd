@@ -26,7 +26,7 @@ class TestCalc:
     def teardown_class(self):
         print("结束计算")
 
-    @pytest.mark.run(order=2)
+    # @pytest.mark.run(order=2)
     @pytest.mark.parametrize('a,b,expect', get_datas()['add']['datas'], ids=get_datas()['add']['ids'])
     def test_add(self, a, b, expect):
         result = self.calc.add(a,b)
@@ -38,7 +38,7 @@ class TestCalc:
             # print(data)
             assert data[2] == self.calc.add(data[0], data[1])
 
-    @pytest.mark.run(order=1)
+    # @pytest.mark.run(order=1)
     @pytest.mark.parametrize('a,b,expect', get_datas()['div']['datas'], ids=get_datas()['div']['ids'])
     def test_div(self, a, b, expect):
         if b == 0:
@@ -51,7 +51,7 @@ class TestCalc:
             assert result == expect
 
     def test_div1(self):
-        datas = [[1, 1, 1], [100, 400, 0.25], [1, 0, 1]]
+        datas = [[1, 1, 1], [100, 400, 1], [1, 0, 1]]
         for data in datas:
             if data[1] == 0:
                 try:
@@ -64,4 +64,4 @@ class TestCalc:
 
 
 if __name__ == '__main__':
-    pytest.main(["test_Calculator.py::TestCalc","-s"])
+    pytest.main(["test_Calculator.py","-s"])
