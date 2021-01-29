@@ -7,6 +7,25 @@ add:
     - [-1,1,0]
   ids: ['int','zero','bignum','minus','result0']
 
+subtract:
+  datas:
+    - [ 1,1,0 ]
+    - [ 100,400,-300 ]
+    - [ 1,0.1,0.9 ]
+    - [ 0.1,1,1 ]
+    - [ 1,-1,0 ]
+  ids: [ 'int','zero','bignum','minus','result0' ]
+
+multiply:
+  datas:
+    - [ 1,1,1 ]
+    - [ 100,400,40000 ]
+    - [ 1,0,0 ]
+    - [ 0.1,0.1,0.01 ]
+    - [ -1,1,-1 ]
+  ids: [ 'int','zero','bignum','minus','result0' ]
+
+
 div:
   datas:
     - [1,1,1]

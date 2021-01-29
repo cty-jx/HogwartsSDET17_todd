@@ -26,19 +26,25 @@ class TestCalc:
     def teardown_class(self):
         print("结束计算")
 
-    # @pytest.mark.run(order=2)
+    @pytest.mark.run(order=4)
     @pytest.mark.parametrize('a,b,expect', get_datas()['add']['datas'], ids=get_datas()['add']['ids'])
     def test_add(self, a, b, expect):
         result = self.calc.add(a,b)
         assert expect == result
 
-    def test_add1(self):
-        datas = [[1, 1, 2], [100, 400, 300], [1, 0, 1]]
-        for data in datas:
-            # print(data)
-            assert data[2] == self.calc.add(data[0], data[1])
+    @pytest.mark.run(order=3)
+    @pytest.mark.parametrize('a,b,expect', get_datas()['subtract']['datas'], ids=get_datas()['subtract']['ids'])
+    def test_subtract(self, a, b, expect):
+        result = self.calc.subtract(a,b)
+        assert expect == result
 
-    # @pytest.mark.run(order=1)
+    @pytest.mark.run(order=2)
+    @pytest.mark.parametrize('a,b,expect', get_datas()['multiply']['datas'], ids=get_datas()['multiply']['ids'])
+    def test_multiply(self, a, b, expect):
+        result = self.calc.multiply(a,b)
+        assert expect == result
+
+    @pytest.mark.run(order=1)
     @pytest.mark.parametrize('a,b,expect', get_datas()['div']['datas'], ids=get_datas()['div']['ids'])
     def test_div(self, a, b, expect):
         if b == 0:
@@ -50,18 +56,6 @@ class TestCalc:
             result = self.calc.div(a, b)
             assert result == expect
 
-    def test_div1(self):
-        datas = [[1, 1, 1], [100, 400, 1], [1, 0, 1]]
-        for data in datas:
-            if data[1] == 0:
-                try:
-                    self.calc.div(data[0],data[1])
-                except ZeroDivisionError as e:
-                    print("除数不能为0")
-            else:
-                result = self.calc.div(data[0],data[1])
-                assert result == data[2]
-
 
 if __name__ == '__main__':
-    pytest.main(["test_Calculator.py","-s"])
+    pytest.main(["-v","-s"])
