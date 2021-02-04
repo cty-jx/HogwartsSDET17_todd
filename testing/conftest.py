@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # conftest.py 文件名字是固定的，不能改
+from typing import List
 
 import pytest
 import yaml
@@ -62,3 +63,12 @@ def get_div_int_error_datas_with_fixture(request):
     logger.info(f'数据类型为{request.param}')
     return request.param
 
+def pytest_collection_modifyitems(
+        session: "Session", config: "Config", items: List["Item"]
+) -> None:
+    print(items)
+    for item in items:
+        item.name = item.name.encode('utf-8').decode('unicode-escape')
+        item._nodeid = item.nodeid.encode('utf-8').decode('unicode-escape')
+
+    items.reverse()

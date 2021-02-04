@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="229e8725-860b-436b-9b6b-ce2fc4c56d55" name="Default Changelist" comment="" />
+    <list default="true" id="229e8725-860b-436b-9b6b-ce2fc4c56d55" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pytest_encode/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest_encode/pytest_encode/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest_encode/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest_encode/tests/test_code-todd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing/conftest.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,71 +49,34 @@
       <recent name="D:\HogwartsSDET17_todd" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\HogwartsSDET17_todd\testing" />
       <recent name="D:\HogwartsSDET17_todd\testing\data" />
       <recent name="D:\HogwartsSDET17_todd\1" />
       <recent name="D:\HogwartsSDET17_todd\pythoncode" />
       <recent name="D:\HogwartsSDET17_todd\app" />
-      <recent name="D:\HogwartsSDET17_todd\testing\class_function" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/HogwartsSDET17_todd/testing/resport/html/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="3D心型" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="pytest in test_code-todd.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="HogwartsSDET17_todd" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../学习/todd_study/录播视频练习/palyfun" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytest_encode/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../学习/todd_study/录播视频练习/palyfun/3D心型.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pytest_encode/tests/test_code-todd.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="image_picture" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="HogwartsSDET17_todd" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../学习/todd_study/录播视频练习/palyfun" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../学习/todd_study/录播视频练习/palyfun/image_picture.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Python.3D心型" />
-      <item itemvalue="Python.image_picture" />
-      <item itemvalue="JavaScript Debug.index.html" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="Python.3D心型" />
-        <item itemvalue="Python.image_picture" />
+        <item itemvalue="Python tests.pytest in test_code-todd.py" />
       </list>
     </recent_temporary>
   </component>
@@ -122,7 +92,7 @@
       <workItem from="1611891276744" duration="4000" />
       <workItem from="1611891302110" duration="2777000" />
       <workItem from="1611900206877" duration="21467000" />
-      <workItem from="1612229378421" duration="22092000" />
+      <workItem from="1612229378421" duration="27300000" />
     </task>
     <task id="LOCAL-00001" summary="第一次上传">
       <created>1611837326521</created>
@@ -180,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612421193953</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="allure生成报告+fixture注释">
+      <created>1612421723966</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1612421723966</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,48 +186,62 @@
     <option name="LAST_COMMIT_MESSAGE" value="allure生成报告+fixture注释" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612419895956">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612426868740">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612419895956" />
-    <state x="558" y="87" key="CommitChangelistDialog2" timestamp="1612421193193">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612426868740" />
+    <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1612426743813">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="87" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612421193193" />
+    <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612426743813" />
+    <state x="558" y="87" key="CommitChangelistDialog2" timestamp="1612421719656">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="558" y="87" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612421719656" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1612181376344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612181376344" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1612421556991">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1612426749017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612421556991" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1612421556991">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612426749017" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1612426749017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612421556991" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1612421556991">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612426749017" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1612426749017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612421556991" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1612421556991">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612426749017" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1612426749017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612421556991" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1612411182494">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612426749017" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1612424972450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612411182494" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1612421196566">
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612424972450" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1612421728339">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612421196566" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612421728339" />
+    <state x="809" y="245" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1612421711261">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="809" y="245" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612421711261" />
     <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611891412172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611891412172" />
+    <state x="662" y="252" width="596" height="536" key="find.popup" timestamp="1612422837146">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="662" y="252" width="596" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612422837146" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_for_test_dependency_test_d.coverage" NAME="pytest for test_dependency.test_d Coverage Results" MODIFIED="1612422203864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/class_function" />
+    <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_for_test_code_todd_test_encode.coverage" NAME="pytest for test_code-todd.test_encode Coverage Results" MODIFIED="1612426195427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytest_encode/tests" />
     <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_for_test_Calculator_test_get_datas_with_fixture.coverage" NAME="pytest for test_Calculator.test_get_datas_with_fixture Coverage Results" MODIFIED="1612164115032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
     <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$test_calculator.coverage" NAME="test_calculator Coverage Results" MODIFIED="1612164802249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../学习/HogwartsSDET17-master/testing" />
     <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_in_test_calculator_py.coverage" NAME="pytest in test_calculator.py Coverage Results" MODIFIED="1611895088348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
@@ -259,22 +250,28 @@
     <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_for_test_Calculator_TestCalc_test_add_int.coverage" NAME="pytest for test_Calculator.TestCalc.test_add_int Coverage Results" MODIFIED="1612406920556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
     <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_in_test_fixture_py.coverage" NAME="pytest in test_fixture.py Coverage Results" MODIFIED="1612183000156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
     <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_in_test_fixture_auto_py.coverage" NAME="pytest in test_fixture_auto.py Coverage Results" MODIFIED="1612183263847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
-    <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_in_test_Calculator_py.coverage" NAME="pytest in test_Calculator.py Coverage Results" MODIFIED="1612419965311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
+    <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_in_test_Calculator_py.coverage" NAME="pytest in test_Calculator.py Coverage Results" MODIFIED="1612424168930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
     <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$3D.coverage" NAME="3D心型 Coverage Results" MODIFIED="1612233206233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../学习/todd_study/录播视频练习/palyfun" />
     <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_for_test_Calculator_TestCalc_test_div1.coverage" NAME="pytest for test_Calculator.TestCalc.test_div1 Coverage Results" MODIFIED="1611900682875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
     <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$image_picture.coverage" NAME="image_picture Coverage Results" MODIFIED="1612232523838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../学习/todd_study/录播视频练习/palyfun" />
+    <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_for_test_code_todd_test_encode__2_.coverage" NAME="pytest for test_code-todd.test_encode (2) Coverage Results" MODIFIED="1612426309079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytest_encode/tests" />
     <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_for_test_Calculator_TestCalc.coverage" NAME="pytest for test_Calculator.TestCalc Coverage Results" MODIFIED="1611913230729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
     <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_for_test_fixture_test_search.coverage" NAME="pytest for test_fixture.test_search Coverage Results" MODIFIED="1612182686163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
     <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_for_test_calculator_TestCalc.coverage" NAME="pytest for test_calculator.TestCalc Coverage Results" MODIFIED="1611892708944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
     <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_for_test_Calculator_TestCalc_test_add1.coverage" NAME="pytest for test_Calculator.TestCalc.test_add1 Coverage Results" MODIFIED="1612182508834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
     <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_for_test_fixture_param_test_search.coverage" NAME="pytest for test_fixture_param.test_search Coverage Results" MODIFIED="1612183726854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
+    <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_for_test_dependency_test_b.coverage" NAME="pytest for test_dependency.test_b Coverage Results" MODIFIED="1612422263715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/class_function" />
     <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_for_test_fixture_auto_test_search.coverage" NAME="pytest for test_fixture_auto.test_search Coverage Results" MODIFIED="1612183690339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
+    <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_for_test_code_todd_test_encode__4_.coverage" NAME="pytest for test_code-todd.test_encode (4) Coverage Results" MODIFIED="1612426749011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytest_encode/tests" />
     <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_for_test_setup_teardown_TestDemo1.coverage" NAME="pytest for test_setup_teardown.TestDemo1 Coverage Results" MODIFIED="1611891320604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
     <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_for_test_Calculator_TestCalc_test_add.coverage" NAME="pytest for test_Calculator.TestCalc.test_add Coverage Results" MODIFIED="1612182284557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
+    <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_for_test_rerun_test_rerun.coverage" NAME="pytest for test_rerun.test_rerun Coverage Results" MODIFIED="1612422125135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/class_function" />
     <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_for_test_calculator_TestCalc_test_add1.coverage" NAME="pytest for test_calculator.TestCalc.test_add1 Coverage Results" MODIFIED="1611892134363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
+    <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_for_test_code_todd_test_encode__3_.coverage" NAME="pytest for test_code-todd.test_encode (3) Coverage Results" MODIFIED="1612426571930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytest_encode/tests" />
     <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_for_test_Calculator_TestCalc_test_div.coverage" NAME="pytest for test_Calculator.TestCalc.test_div Coverage Results" MODIFIED="1612164678634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
     <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_in_test_yaml_py.coverage" NAME="pytest in test_yaml.py Coverage Results" MODIFIED="1611913352891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
-    <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_in_test_dependency_py.coverage" NAME="pytest in test_dependency.py Coverage Results" MODIFIED="1612166704568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
+    <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_in_test_dependency_py.coverage" NAME="pytest in test_dependency.py Coverage Results" MODIFIED="1612422281281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
+    <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_for_test_code_todd_test_encode__1_.coverage" NAME="pytest for test_code-todd.test_encode (1) Coverage Results" MODIFIED="1612426228800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytest_encode/tests" />
     <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_for_test_demo_test_add.coverage" NAME="pytest for test_demo.test_add Coverage Results" MODIFIED="1611837739023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
   </component>
 </project>

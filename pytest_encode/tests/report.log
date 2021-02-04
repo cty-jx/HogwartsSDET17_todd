@@ -1,0 +1,6 @@
+Thu, 04 Feb 2021 16:21:32 __init__.py[line:25] INFO item.name : test_encode[³ÂÌìÓê]
+Thu, 04 Feb 2021 16:21:32 __init__.py[line:26] INFO item._nodeid : tests/test_code-todd.py::test_encode[³ÂÌìÓê]
+Thu, 04 Feb 2021 16:21:32 __init__.py[line:25] INFO item.name : test_encode[ÂŞ½Ü]
+Thu, 04 Feb 2021 16:21:32 __init__.py[line:26] INFO item._nodeid : tests/test_code-todd.py::test_encode[ÂŞ½Ü]
+Thu, 04 Feb 2021 16:21:32 test_code-todd.py[line:11] INFO ²âÊÔÊı¾İ³ÂÌìÓê
+Thu, 04 Feb 2021 16:21:32 test_code-todd.py[line:11] INFO ²âÊÔÊı¾İÂŞ½Ü
