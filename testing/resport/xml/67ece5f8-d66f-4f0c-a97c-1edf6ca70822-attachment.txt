@@ -1,0 +1,1 @@
+[32mINFO    [0m root:conftest.py:62 数据类型为['pythoncode', 0, 'N/A']

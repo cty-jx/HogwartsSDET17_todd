@@ -1,0 +1,123 @@
+{
+  "uid" : "90bcec92a19eb53b",
+  "name" : "div_0.06_2",
+  "fullName" : "test_Calculator.TestCalc#test_div_int_normal",
+  "historyId" : "a9a18604a0e55b52dbf482f401169970",
+  "time" : {
+    "start" : 1612420386966,
+    "stop" : 1612420386967,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_instance",
+    "time" : {
+      "start" : 1612420386966,
+      "stop" : 1612420386966,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "get_div_int_normal_datas_with_fixture",
+    "time" : {
+      "start" : 1612420386966,
+      "stop" : 1612420386966,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "60847af2fe8542e0",
+      "name" : "log",
+      "source" : "60847af2fe8542e0.txt",
+      "type" : "text/plain",
+      "size" : 68
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "get_instance::0",
+    "time" : {
+      "start" : 1612420386967,
+      "stop" : 1612420386968,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "div Integer normal Function"
+  }, {
+    "name" : "feature",
+    "value" : "计算器"
+  }, {
+    "name" : "suite",
+    "value" : "test_Calculator"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalc"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-ALON4FT"
+  }, {
+    "name" : "thread",
+    "value" : "10176-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_Calculator"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "get_div_int_normal_datas_with_fixture",
+    "value" : "[0.06, 2, 0.03]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "90bcec92a19eb53b.json",
+  "parameterValues" : [ "[0.06, 2, 0.03]" ]
+}

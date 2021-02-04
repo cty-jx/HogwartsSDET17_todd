@@ -1,0 +1,131 @@
+{
+  "uid" : "c237022ca1aa2a83",
+  "name" : "subtract_-0.03_0.001",
+  "fullName" : "test_Calculator.TestCalc#test_subtract_float",
+  "historyId" : "d1e3c1ac162337240dce32858c767edc",
+  "time" : {
+    "start" : 1612420386895,
+    "stop" : 1612420386895,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert -0.0301 == -0.031\n  +-0.0301\n  --0.031",
+  "statusTrace" : "self = <testing.test_Calculator.TestCalc object at 0x000001564F4A5A08>, get_instance = <pythoncode.Calculator.Calculator object at 0x000001564F4A63C8>, get_subtract_float_datas_with_fixture = [-0.03, 0.001, -0.0301]\n\n    @allure.title(\"subtract_{get_subtract_float_datas_with_fixture[0]}_{get_subtract_float_datas_with_fixture[1]}\")\n    @allure.story(\"subtract float Function\")\n    def test_subtract_float(self, get_instance, get_subtract_float_datas_with_fixture):\n        subtract_float = get_subtract_float_datas_with_fixture\n>       assert subtract_float[2] == round(get_instance.subtract(subtract_float[0], subtract_float[1]), 8)\nE       assert -0.0301 == -0.031\nE         +-0.0301\nE         --0.031\n\ntest_Calculator.py:52: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_instance",
+    "time" : {
+      "start" : 1612420386894,
+      "stop" : 1612420386894,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "get_subtract_float_datas_with_fixture",
+    "time" : {
+      "start" : 1612420386894,
+      "stop" : 1612420386895,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert -0.0301 == -0.031\n  +-0.0301\n  --0.031",
+    "statusTrace" : "self = <testing.test_Calculator.TestCalc object at 0x000001564F4A5A08>, get_instance = <pythoncode.Calculator.Calculator object at 0x000001564F4A63C8>, get_subtract_float_datas_with_fixture = [-0.03, 0.001, -0.0301]\n\n    @allure.title(\"subtract_{get_subtract_float_datas_with_fixture[0]}_{get_subtract_float_datas_with_fixture[1]}\")\n    @allure.story(\"subtract float Function\")\n    def test_subtract_float(self, get_instance, get_subtract_float_datas_with_fixture):\n        subtract_float = get_subtract_float_datas_with_fixture\n>       assert subtract_float[2] == round(get_instance.subtract(subtract_float[0], subtract_float[1]), 8)\nE       assert -0.0301 == -0.031\nE         +-0.0301\nE         --0.031\n\ntest_Calculator.py:52: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cf7c27795081d787",
+      "name" : "log",
+      "source" : "cf7c27795081d787.txt",
+      "type" : "text/plain",
+      "size" : 76
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "get_instance::0",
+    "time" : {
+      "start" : 1612420386899,
+      "stop" : 1612420386899,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "计算器"
+  }, {
+    "name" : "story",
+    "value" : "subtract float Function"
+  }, {
+    "name" : "suite",
+    "value" : "test_Calculator"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalc"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-ALON4FT"
+  }, {
+    "name" : "thread",
+    "value" : "10176-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_Calculator"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "get_subtract_float_datas_with_fixture",
+    "value" : "[-0.03, 0.001, -0.0301]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c237022ca1aa2a83.json",
+  "parameterValues" : [ "[-0.03, 0.001, -0.0301]" ]
+}

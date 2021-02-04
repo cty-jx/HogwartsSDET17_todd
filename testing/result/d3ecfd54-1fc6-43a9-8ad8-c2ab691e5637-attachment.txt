@@ -1,0 +1,1 @@
+INFO     root:conftest.py:50 数据类型为[0.003, 0.002, 6e-05]

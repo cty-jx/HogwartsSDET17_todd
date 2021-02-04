@@ -1,0 +1,1 @@
+INFO     root:conftest.py:38 数据类型为[9e-05, 4e-05, 5e-05]

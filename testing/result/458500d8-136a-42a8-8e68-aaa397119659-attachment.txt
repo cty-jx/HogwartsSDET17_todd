@@ -1,0 +1,1 @@
+INFO     root:conftest.py:20 数据类型为['-pythoncode', 0, '-pythoncode']

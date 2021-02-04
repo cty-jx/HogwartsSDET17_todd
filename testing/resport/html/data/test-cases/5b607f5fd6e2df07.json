@@ -1,0 +1,131 @@
+{
+  "uid" : "5b607f5fd6e2df07",
+  "name" : "multiply_3_pythoncode",
+  "fullName" : "test_Calculator.TestCalc#test_multiply_int",
+  "historyId" : "005884391cac43213e0d8b622a3a7526",
+  "time" : {
+    "start" : 1612420386902,
+    "stop" : 1612420386902,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 3 == 'pythoncodepy...odepythoncode'\n  +3\n  -'pythoncodepythoncodepythoncode'",
+  "statusTrace" : "self = <testing.test_Calculator.TestCalc object at 0x000001564F469788>, get_instance = <pythoncode.Calculator.Calculator object at 0x000001564F469888>, get_multiply_int_datas_with_fixture = [3, 'pythoncode', 3]\n\n    @allure.title(\"multiply_{get_multiply_int_datas_with_fixture[0]}_{get_multiply_int_datas_with_fixture[1]}\")\n    @allure.story(\"multiply Integer Function\")\n    def test_multiply_int(self, get_instance, get_multiply_int_datas_with_fixture):\n        multiply_int = get_multiply_int_datas_with_fixture\n>       assert multiply_int[2] == get_instance.multiply(multiply_int[0], multiply_int[1])\nE       AssertionError: assert 3 == 'pythoncodepy...odepythoncode'\nE         +3\nE         -'pythoncodepythoncodepythoncode'\n\ntest_Calculator.py:58: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_multiply_int_datas_with_fixture",
+    "time" : {
+      "start" : 1612420386901,
+      "stop" : 1612420386902,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "get_instance",
+    "time" : {
+      "start" : 1612420386901,
+      "stop" : 1612420386901,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 3 == 'pythoncodepy...odepythoncode'\n  +3\n  -'pythoncodepythoncodepythoncode'",
+    "statusTrace" : "self = <testing.test_Calculator.TestCalc object at 0x000001564F469788>, get_instance = <pythoncode.Calculator.Calculator object at 0x000001564F469888>, get_multiply_int_datas_with_fixture = [3, 'pythoncode', 3]\n\n    @allure.title(\"multiply_{get_multiply_int_datas_with_fixture[0]}_{get_multiply_int_datas_with_fixture[1]}\")\n    @allure.story(\"multiply Integer Function\")\n    def test_multiply_int(self, get_instance, get_multiply_int_datas_with_fixture):\n        multiply_int = get_multiply_int_datas_with_fixture\n>       assert multiply_int[2] == get_instance.multiply(multiply_int[0], multiply_int[1])\nE       AssertionError: assert 3 == 'pythoncodepy...odepythoncode'\nE         +3\nE         -'pythoncodepythoncodepythoncode'\n\ntest_Calculator.py:58: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f097b87f559215ac",
+      "name" : "log",
+      "source" : "f097b87f559215ac.txt",
+      "type" : "text/plain",
+      "size" : 73
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "get_instance::0",
+    "time" : {
+      "start" : 1612420386906,
+      "stop" : 1612420386906,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "计算器"
+  }, {
+    "name" : "story",
+    "value" : "multiply Integer Function"
+  }, {
+    "name" : "suite",
+    "value" : "test_Calculator"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalc"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-ALON4FT"
+  }, {
+    "name" : "thread",
+    "value" : "10176-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_Calculator"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "get_multiply_int_datas_with_fixture",
+    "value" : "[3, 'pythoncode', 3]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5b607f5fd6e2df07.json",
+  "parameterValues" : [ "[3, 'pythoncode', 3]" ]
+}

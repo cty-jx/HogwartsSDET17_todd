@@ -1,0 +1,131 @@
+{
+  "uid" : "44bf5d058fd507cd",
+  "name" : "add_-pythoncode_0",
+  "fullName" : "test_Calculator.TestCalc#test_add_int",
+  "historyId" : "402fa5bffd2c29a8dabc72c316cfe914",
+  "time" : {
+    "start" : 1612420386835,
+    "stop" : 1612420386835,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: can only concatenate str (not \"int\") to str",
+  "statusTrace" : "self = <testing.test_Calculator.TestCalc object at 0x000001564F4439C8>, get_instance = <pythoncode.Calculator.Calculator object at 0x000001564F3F0688>, get_add_int_datas_with_fixture = ['-pythoncode', 0, '-pythoncode']\n\n    @allure.title(\"add_{get_add_int_datas_with_fixture[0]}_{get_add_int_datas_with_fixture[1]}\")\n    @allure.story(\"Add Integer Function\")\n    def test_add_int(self, get_instance, get_add_int_datas_with_fixture):\n        add_int = get_add_int_datas_with_fixture\n>       assert add_int[2] == get_instance.add(add_int[0], add_int[1])\n\ntest_Calculator.py:34: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <pythoncode.Calculator.Calculator object at 0x000001564F3F0688>, a = '-pythoncode', b = 0\n\n    def add(self, a, b):\n        logger.info(f\"This case is to test {a} + {b}\")\n>       return a + b\nE       TypeError: can only concatenate str (not \"int\") to str\n\n..\\pythoncode\\Calculator.py:9: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_instance",
+    "time" : {
+      "start" : 1612420386834,
+      "stop" : 1612420386834,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "get_add_int_datas_with_fixture",
+    "time" : {
+      "start" : 1612420386834,
+      "stop" : 1612420386834,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: can only concatenate str (not \"int\") to str",
+    "statusTrace" : "self = <testing.test_Calculator.TestCalc object at 0x000001564F4439C8>, get_instance = <pythoncode.Calculator.Calculator object at 0x000001564F3F0688>, get_add_int_datas_with_fixture = ['-pythoncode', 0, '-pythoncode']\n\n    @allure.title(\"add_{get_add_int_datas_with_fixture[0]}_{get_add_int_datas_with_fixture[1]}\")\n    @allure.story(\"Add Integer Function\")\n    def test_add_int(self, get_instance, get_add_int_datas_with_fixture):\n        add_int = get_add_int_datas_with_fixture\n>       assert add_int[2] == get_instance.add(add_int[0], add_int[1])\n\ntest_Calculator.py:34: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <pythoncode.Calculator.Calculator object at 0x000001564F3F0688>, a = '-pythoncode', b = 0\n\n    def add(self, a, b):\n        logger.info(f\"This case is to test {a} + {b}\")\n>       return a + b\nE       TypeError: can only concatenate str (not \"int\") to str\n\n..\\pythoncode\\Calculator.py:9: TypeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4a1ff5ee92747731",
+      "name" : "log",
+      "source" : "4a1ff5ee92747731.txt",
+      "type" : "text/plain",
+      "size" : 86
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "get_instance::0",
+    "time" : {
+      "start" : 1612420386839,
+      "stop" : 1612420386840,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "计算器"
+  }, {
+    "name" : "story",
+    "value" : "Add Integer Function"
+  }, {
+    "name" : "suite",
+    "value" : "test_Calculator"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalc"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-ALON4FT"
+  }, {
+    "name" : "thread",
+    "value" : "10176-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_Calculator"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "get_add_int_datas_with_fixture",
+    "value" : "['-pythoncode', 0, '-pythoncode']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "44bf5d058fd507cd.json",
+  "parameterValues" : [ "['-pythoncode', 0, '-pythoncode']" ]
+}

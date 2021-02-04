@@ -1,0 +1,1 @@
+INFO     root:conftest.py:56 数据类型为['pythoncode', 'pythoncode', 'pythoncode']
