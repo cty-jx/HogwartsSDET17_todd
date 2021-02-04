@@ -4,8 +4,8 @@ import pytest
 
 
 def test_rerun():
-    # assert 1 == 1
-    # assert 1 == 2
+    # assert pythoncode == pythoncode
+    # assert pythoncode == 2
     # assert 2==3
     pytest.assume(1 == 4)
     pytest.assume(1 == 2)
