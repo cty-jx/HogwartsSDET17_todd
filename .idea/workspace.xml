@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="229e8725-860b-436b-9b6b-ce2fc4c56d55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/selenium_windows/Base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/selenium_windows/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/selenium_windows/test_ActionChains.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/selenium_windows/test_TouchAction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/selenium_windows/test_form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/selenium_windows/test_frame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/selenium_windows/test_one.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/selenium_windows/test_wait.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/selenium_windows/test_windows.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/HogwartsSDET17_todd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HogwartsSDET17_todd.iml" afterDir="false" />
+    <list default="true" id="229e8725-860b-436b-9b6b-ce2fc4c56d55" name="Default Changelist" comment="selenium学习">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testing/result/00025382-6f82-4cec-9af2-22f667c717f2-container.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/testing/result/010fd21a-97e6-44e5-9eda-5082bc5347c5-result.json" beforeDir="false" />
@@ -727,6 +716,8 @@
       <change beforePath="$PROJECT_DIR$/testing/result/fedec189-6c69-4b7b-9ebc-e8a79ee221ee-result.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/testing/result/ff520848-60d3-426e-a1af-755c7a013623-container.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/testing/result/ff6cbbfa-1a64-490f-a146-593ea2a0f7dc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/selenium_windows/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/selenium_windows/Base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/selenium_windows/test_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/selenium_windows/test_frame.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -783,6 +774,28 @@
     </key>
   </component>
   <component name="RunManager" selected="Python tests.pytest for test_frame.TestFrame.test_frame">
+    <configuration name="3D心型" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HogwartsSDET17_todd" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../学习/todd_study/录播视频练习/palyfun" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../学习/todd_study/录播视频练习/palyfun/3D心型.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_frame.TestFrame.test_frame" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="HogwartsSDET17_todd" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -814,23 +827,6 @@
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_windows.TestWindows.test_windows&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for web.selenium_windows.test_form.TestForm" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="HogwartsSDET17_todd" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web/selenium" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;web.selenium_windows.test_form.TestForm&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -871,10 +867,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest for test_frame.TestFrame.test_frame" />
+        <item itemvalue="Python.3D心型" />
         <item itemvalue="Python tests.pytest in test_windows.py" />
         <item itemvalue="Python tests.pytest for test_windows.TestWindows.test_windows" />
         <item itemvalue="Python tests.pytest in test_form.py" />
-        <item itemvalue="Python tests.pytest for web.selenium_windows.test_form.TestForm" />
       </list>
     </recent_temporary>
   </component>
@@ -893,7 +889,7 @@
       <workItem from="1612229378421" duration="29561000" />
       <workItem from="1612429178150" duration="3015000" />
       <workItem from="1613706156645" duration="19741000" />
-      <workItem from="1613958791792" duration="22030000" />
+      <workItem from="1613958791792" duration="30346000" />
     </task>
     <task id="LOCAL-00001" summary="第一次上传">
       <created>1611837326521</created>
@@ -965,7 +961,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612426962797</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="selenium学习">
+      <created>1614047750841</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1614047750841</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -991,7 +994,8 @@
     <MESSAGE value="作业加减乘除" />
     <MESSAGE value="第二次上课" />
     <MESSAGE value="allure生成报告+fixture注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="allure生成报告+fixture注释" />
+    <MESSAGE value="selenium学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="selenium学习" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" width="1092" height="740" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613982361604">
@@ -1006,10 +1010,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612426743813" />
-    <state x="558" y="87" key="CommitChangelistDialog2" timestamp="1612426962041">
+    <state x="558" y="87" key="CommitChangelistDialog2" timestamp="1614047749281">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="87" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612426962041" />
+    <state x="558" y="87" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614047749281" />
     <state x="817" y="267" key="EnvironmentVariablesDialog" timestamp="1613726927997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1018,22 +1022,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613785613355" />
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1614047677640">
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1614306715968">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614047677640" />
-    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1614047677640">
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614306715968" />
+    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1614306715968">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614047677640" />
-    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1614047677639">
+    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614306715968" />
+    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1614306715967">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614047677639" />
-    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1614047677640">
+    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614306715967" />
+    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1614306715968">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614047677640" />
+    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614306715968" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1613965221672">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1054,10 +1058,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1613785615948" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1612426967896">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1614047754064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612426967896" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614047754064" />
     <state x="809" y="245" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1612421711261">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1087,7 +1091,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_for_test_frame_TestFrame_test_frame.coverage" NAME="pytest for test_frame.TestFrame.test_frame Coverage Results" MODIFIED="1613998740800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/selenium_windows" />
+    <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_for_test_frame_TestFrame_test_frame.coverage" NAME="pytest for test_frame.TestFrame.test_frame Coverage Results" MODIFIED="1614236751839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/selenium_windows" />
     <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_in_test_chorm_py.coverage" NAME="pytest in test_chorm.py Coverage Results" MODIFIED="1613728990449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web" />
     <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$test_calculator.coverage" NAME="test_calculator Coverage Results" MODIFIED="1612164802249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../学习/HogwartsSDET17-master/testing" />
     <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$chrome.coverage" NAME="chrome Coverage Results" MODIFIED="1613727159381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web" />
@@ -1126,8 +1130,8 @@
     <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_for_test_Calculator_TestCalc_test_add_int.coverage" NAME="pytest for test_Calculator.TestCalc.test_add_int Coverage Results" MODIFIED="1612406920556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
     <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_in_test_fixture_py.coverage" NAME="pytest in test_fixture.py Coverage Results" MODIFIED="1612183000156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
     <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_in_test_Calculator_py.coverage" NAME="pytest in test_Calculator.py Coverage Results" MODIFIED="1613727385752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
-    <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$3D.coverage" NAME="3D心型 Coverage Results" MODIFIED="1613722842013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../学习/todd_study/录播视频练习/palyfun" />
     <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_for_test_one_TestTodd_test_baidu.coverage" NAME="pytest for test_one.TestTodd.test_baidu Coverage Results" MODIFIED="1613793003201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web" />
+    <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$3D.coverage" NAME="3D心型 Coverage Results" MODIFIED="1614306715874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../学习/todd_study/录播视频练习/palyfun" />
     <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_for_test_form_TestForm.coverage" NAME="pytest for test_form.TestForm Coverage Results" MODIFIED="1613984834061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/selenium" />
     <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_for_test_Calculator_TestCalc_test_div1.coverage" NAME="pytest for test_Calculator.TestCalc.test_div1 Coverage Results" MODIFIED="1611900682875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
     <SUITE FILE_PATH="coverage/HogwartsSDET17_todd$pytest_for_test_fixture_test_search.coverage" NAME="pytest for test_fixture.test_search Coverage Results" MODIFIED="1612182686163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
