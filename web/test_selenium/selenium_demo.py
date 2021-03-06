@@ -12,7 +12,7 @@ class TestTmp():
     def setup_method(self, method):
         chrome_arg = webdriver.ChromeOptions()
         chrome_arg.debugger_address = '192.168.0.109:9222'
-        self.driver = webdriver.Chrome()
+        self.driver = webdriver.Chrome(options=chrome_arg)
         self.vars = {}
 
     def teardown_method(self, method):
