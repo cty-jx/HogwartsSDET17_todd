@@ -10,8 +10,11 @@ from web.test_selenium.login_page.register_page import RegisterPage
 
 class MainPage:
     def __init__(self):
-        self.driver = webdriver.Chrome()
-        self.driver.implicitly_wait(10)
+        chrome_arg = webdriver.ChromeOptions()
+        chrome_arg.debugger_address = '192.168.0.110:9222'
+        self.driver = webdriver.Chrome(options=chrome_arg)
+        # self.driver = webdriver.Chrome()
+        self.driver.implicitly_wait(5)
         self.driver.get("https://work.weixin.qq.com/")
 
     def goto_register(self):
